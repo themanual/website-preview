@@ -1,8 +1,7 @@
 <?
   include($_SERVER["DOCUMENT_ROOT"].'/../helpers/lib.php');
 
-  $fm = ['issue' => 4, 'key' => 'wilson', 'type' => 'article'];
-  $fm['metadata'] = $GLOBALS['metadata']['issues'][$fm['issue']][$fm['key']];
+  $fm = extract_frontmatter();
   $title    = make_title($fm);
 ?>
 
