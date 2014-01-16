@@ -1,0 +1,57 @@
+/*
+  
+  # TODO
+
+  - ::selection
+  - tap-highlight colors
+
+*/
+
+html {
+  font-size: $rem-base;
+  @include media-upto($bp-s)  { font-size: $rem-base - 3px; }
+  @include media-upto($bp-xs) { font-size: $rem-base - 5px; }
+
+}
+
+body {
+  font-family: $type-serif;
+  background-color: white;
+}
+
+body { 
+  background: gray(97%); 
+}
+
+body > main {
+  background: white;
+}
+
+figure img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  
+  color: gray(30%);
+  
+  @include colored-link;
+
+  @each $i in $issues {
+    &.issue-#{$i},
+    .issue-#{$i} &.issue-current {
+      color: issue-color($i);
+      @include colored-link;
+    }
+  }
+  
+}
+
+
+
+.debug, .debug * {
+  background: rgba(255,0,0,0.05);
+}

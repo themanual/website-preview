@@ -1,0 +1,21 @@
+{
+  "name": "themanual",
+  "version": "0.0.0",
+  "homepage": "http://beta.alwaysreadthemanual.com",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fictionco/themanual-design.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-sass": "~0.6.0",
+    "matchdep": "~0.3.0",
+    "grunt-notify": "~0.2.16",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}
