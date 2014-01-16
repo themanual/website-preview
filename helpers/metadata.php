@@ -337,6 +337,7 @@ $metadata['issues'][4] = [
 
   'wilson-miner' => [
     'author' => 'Wilson Miner',
+    'twitter' => 'wilsonminer',
     'bio' => '<a href="http://wilsonminer.com">Wilson Miner</a> is a digital product designer in San Francisco. Until recently, he was a product designer at Facebook. Before that he was head of design at Rdio, a digital music service.',
     'article' => [
       'title' =>  'Perennial Design',
