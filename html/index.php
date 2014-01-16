@@ -39,8 +39,8 @@
   <meta property="og:description" content="<?= $fm['metadata'][$fm['type']]['synopsis'] ?>" />
   <meta name="twitter:creator" content="@<?= $fm['metadata']['twitter'] ?>" />
   <meta property="article:author" content="https://www.facebook.com/<?= $fm['metadata']['facebook'] ?>" />
-  <meta name="twitter:image:src" content="<?= ($_SERVER['HTTPS']?'https://':'http://').$_SERVER['SERVER_NAME'] . illustration_path($fm['issue'], $fm['key'], 'print') ?>" />
-  <meta property="og:image" content="<?= ($_SERVER['HTTPS']?'https://':'http://').$_SERVER['SERVER_NAME'] . illustration_path($fm['issue'], $fm['key'], 'print') ?>" />
+  <meta name="twitter:image:src" content="<?= ($_SERVER['HTTPS']?'https://':'http://').$_SERVER['SERVER_NAME'] . illustration_path($fm['issue'], $fm['key'], 'square') ?>" />
+  <meta property="og:image" content="<?= ($_SERVER['HTTPS']?'https://':'http://').$_SERVER['SERVER_NAME'] . illustration_path($fm['issue'], $fm['key'], 'square') ?>" />
       
   
   <!-- JS -->
