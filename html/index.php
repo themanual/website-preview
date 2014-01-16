@@ -28,22 +28,19 @@
   </title>
   
   <!-- Twitter / OG -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@themanual">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@themanual" />
   <meta property="og:site_name" content="The Manual"/>
-  <meta property="og:url" content="<?= ($_SERVER['HTTPS'] ? 'https://' : 'http://') . $_SERVER['SERVER_NAME'] . article_url($fm['issue'], $fm['key'], $fm['type']) ?>">
+  <meta property="og:url" content="<?= ($_SERVER['HTTPS'] ? 'https://' : 'http://') . $_SERVER['SERVER_NAME'] . article_url($fm['issue'], $fm['key'], $fm['type']) ?>" />
   <meta property="og:type" content="article" />
-  <meta name="twitter:title" content="<?= $fm['metadata'][$fm['type']]['title'] ?>">
+  <meta name="twitter:title" content="<?= $fm['metadata'][$fm['type']]['title'] ?>" />
   <meta property="og:title" content="<?= $fm['metadata'][$fm['type']]['title'] ?>" />
-  <meta name="twitter:description" content="<?= $fm['metadata'][$fm['type']]['synopsis'] ?>">
+  <meta name="twitter:description" content="<?= $fm['metadata'][$fm['type']]['synopsis'] ?>" />
   <meta property="og:description" content="<?= $fm['metadata'][$fm['type']]['synopsis'] ?>" />
-  <meta name="twitter:creator" content="@<?= $fm['metadata']['twitter'] ?>">
-  
-  <meta property="article:author" content="<?= $fm['metadata']['author'] ?>" />
+  <meta name="twitter:creator" content="@<?= $fm['metadata']['twitter'] ?>" />
   <meta property="article:author" content="https://www.facebook.com/<?= $fm['metadata']['facebook'] ?>" />
-
-  <meta name="twitter:image:src" content="<?= ($_SERVER['HTTPS']?'https://':'http://').$_SERVER['SERVER_NAME'] . illustration_path($fm['issue'], $fm['key'], 'print') ?>">
-  <meta property="og:image" content="<?= ($_SERVER['HTTPS']?'https://':'http://').$_SERVER['SERVER_NAME'] . illustration_path($fm['issue'], $fm['key'], 'print') ?>"/>
+  <meta name="twitter:image:src" content="<?= ($_SERVER['HTTPS']?'https://':'http://').$_SERVER['SERVER_NAME'] . illustration_path($fm['issue'], $fm['key'], 'print') ?>" />
+  <meta property="og:image" content="<?= ($_SERVER['HTTPS']?'https://':'http://').$_SERVER['SERVER_NAME'] . illustration_path($fm['issue'], $fm['key'], 'print') ?>" />
       
   
   <!-- JS -->
