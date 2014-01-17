@@ -130,28 +130,26 @@ every thousand years. </p>
 
 <p>The land has other uses: there are still a few oil wells pumping, and the grassland is good for grazing. But underneath the ground, a new root system is growing, and soon it will start to build back up the soil. Maybe someday this land will grow food again. Maybe my grandchildren will come stand out in this field too, just in time for harvest. </p>
 
-<div class="footnotes">
-<ol>
+<div class="footnotes entry-content-asset">
+  <ol>
+    <li id="fn:1">
+    <p>Wendell Berry, <a href="http://www.context.org/iclib/ic30/berry/">”Manifesto: The Mad Farmer Liberation Front,”</a> (<em>Reclaiming Politics</em>, 1991). <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+    </li>
 
-<li id="fn:1">
-<p>Wendell Berry, <a href="http://www.context.org/iclib/ic30/berry/">”Manifesto: The Mad Farmer Liberation Front,”</a> (<em>Reclaiming Politics</em>, 1991). <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
-</li>
+    <li id="fn:2">
+    <p>Italo Calvino, <em><a href="http://www.amazon.com/dp/0156453800/">Invisible Cities</a></em>, (Harcourt Brace, 1974). <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+    </li>
 
-<li id="fn:2">
-<p>Italo Calvino, <em><a href="http://www.amazon.com/dp/0156453800/">Invisible Cities</a></em>, (Harcourt Brace, 1974). <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
-</li>
+    <li id="fn:3">
+    <p>Sam Green and Carrie Lozano, <a href="http://www.pbs.org/pov/utopia/">”Utopia Part 3: the World&#8217;s Largest Shopping Mall,”</a> (Film, 2009) <a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+    </li>
 
-<li id="fn:3">
-<p>Sam Green and Carrie Lozano, <a href="http://www.pbs.org/pov/utopia/">”Utopia Part 3: the World&#8217;s Largest Shopping Mall,”</a> (Film, 2009) <a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
-</li>
+    <li id="fn:4">
+    <p>Malcolm Gladwell, <a href="http://www.newyorker.com/archive/2004/03/15/040315fa_fact1">”The Terrazzo Jungle,”</a> (The New Yorker, 2004). <a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+    </li>
 
-<li id="fn:4">
-<p>Malcolm Gladwell, <a href="http://www.newyorker.com/archive/2004/03/15/040315fa_fact1">”The Terrazzo Jungle,”</a> (The New Yorker, 2004). <a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
-</li>
-
-<li id="fn:5">
-<p>Wes Jackson, <em><a href="http://www.amazon.com/dp/0803275625/">New Roots for Agriculture</a></em>, (University of Nebraska, 1980). <a href="#fnref:5" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
-</li>
-
-</ol>
+    <li id="fn:5">
+    <p>Wes Jackson, <em><a href="http://www.amazon.com/dp/0803275625/">New Roots for Agriculture</a></em>, (University of Nebraska, 1980). <a href="#fnref:5" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+    </li>
+  </ol>
 </div>
