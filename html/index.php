@@ -62,10 +62,10 @@
   <main class="issue-<?= $fm['issue'] ?>" role="main">
     
     <!-- Article -->
-    <article class="issue-piece is-<?= $fm['type'] ?>"><div>
+    <article class="issue-piece is-<?= $fm['type'] ?> hentry"><div>
       <? render_piece_header($fm); ?>
       
-      <div class="issue-piece-text">
+      <div class="issue-piece-text entry-content">
         <? include($_SERVER["DOCUMENT_ROOT"].'/../data/issues/'.$fm["issue"].'/'.$fm["key"].'/'.$fm["type"].'.php'); ?>
       </div>
 
