@@ -9,7 +9,7 @@ Put your faith in the two inches of humus<br>
 that will build under the trees<br>
 every thousand years. </p>
 
-<p><cite>— Wendell Berry <a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a></cite></p>
+<p><cite>— Wendell Berry <a href="#fn:1" id="fnref:1" title="see footnote" class="footnote" rel="footnote">[1]</a></cite></p>
 </blockquote>
 
 <p>In the picture, I’m standing in a wheat field in western Kansas. I’m five years old; the wheat is higher than my head. It’s late summer, almost time for harvest.</p>
@@ -71,10 +71,10 @@ every thousand years. </p>
 <blockquote>
 <p>Futures not achieved are only branches of the past: dead branches.</p>
 
-<p><cite>— Italo Calvino<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a></cite></p>
+<p><cite>— Italo Calvino<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote" rel="footnote">[2]</a></cite></p>
 </blockquote>
 
-<p>The largest shopping mall in the world is a ghost town. Built on former farmland in the suburbs of Dongguan, China, the <a href="http://en.wikipedia.org/wiki/New_South_China_Mall">New South China Mall</a> covers 9.6 million square feet, with leasable space for as many as 2,350 stores. It has seven zones with features that mimic landmarks from international cities like Paris, Rome, and Venice, including an 80-foot replica of the Arc de Triomphe, and a 1.3-mile canal complete with gondolas.<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a></p>
+<p>The largest shopping mall in the world is a ghost town. Built on former farmland in the suburbs of Dongguan, China, the <a href="http://en.wikipedia.org/wiki/New_South_China_Mall">New South China Mall</a> covers 9.6 million square feet, with leasable space for as many as 2,350 stores. It has seven zones with features that mimic landmarks from international cities like Paris, Rome, and Venice, including an 80-foot replica of the Arc de Triomphe, and a 1.3-mile canal complete with gondolas.<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote" rel="footnote">[3]</a></p>
 
 <p>It&#8217;s all almost completely empty. There is no airport in Dongguan to bring shoppers from more populated areas, and there are no highways that reach the mall’s location. </p>
 
@@ -88,7 +88,7 @@ every thousand years. </p>
 
 <p>Of course, the only part of his plans that ever got built, at Southdale or any of the other countless developments which rapidly copied and expanded on its model, was the shopping center. Instead of building Gruen’s system as the foundation, the developers extracted just the most lucrative piece and optimized it in isolation for one outcome: profit. Once chosen, that metric became the one thing that every other part of Gruen’s idea would eventually be traded against.</p>
 
-<p>By the end of his life, Gruen left America as disgusted with his own invention as he had been when with the suburbs when he first arrived. Appalled by the metastatic sprawl the malls had spawned and the “ugliness and discomfort of the land-wasting seas of parking”<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a>, he eventually disowned and disparaged his own creation. In a speech in London in 1978, he declared, “I refuse to pay alimony for those bastard developments.&quot; He died in Vienna in 1980. He never returned to America.</p>
+<p>By the end of his life, Gruen left America as disgusted with his own invention as he had been when with the suburbs when he first arrived. Appalled by the metastatic sprawl the malls had spawned and the “ugliness and discomfort of the land-wasting seas of parking”<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote" rel="footnote">[4]</a>, he eventually disowned and disparaged his own creation. In a speech in London in 1978, he declared, “I refuse to pay alimony for those bastard developments.&quot; He died in Vienna in 1980. He never returned to America.</p>
 
 <h2>The Failure of Success</h2>
 
@@ -118,7 +118,7 @@ every thousand years. </p>
 
 <p>They’re using many of the same techniques, like hybridization and selective breeding, which have been so successful at increasing yields in commercial grain crops to develop promising strains of native, perennial plants into viable food-producing crops. </p>
 
-<p>A few years after he started the Land Institute, Wes Jackson was asked about its chances for success. Was it even possible to develop a perennial mixture of plants which can even approach the yields necessary to be a viable alternative to commercial grains for food production? His response was characteristically understated: “Given a little bit of money and up to 100 years, we can do it. I see no reason why it can’t be done.”<a href="#fn:5" id="fnref:5" title="see footnote" class="footnote">[5]</a></p>
+<p>A few years after he started the Land Institute, Wes Jackson was asked about its chances for success. Was it even possible to develop a perennial mixture of plants which can even approach the yields necessary to be a viable alternative to commercial grains for food production? His response was characteristically understated: “Given a little bit of money and up to 100 years, we can do it. I see no reason why it can’t be done.”<a href="#fn:5" id="fnref:5" title="see footnote" class="footnote" rel="footnote">[5]</a></p>
 
 <p>Thirty years later, The Land Institute now hopes to be able to grow enough of its most promising grain, a type of wheatgrass they call Kernza™ to begin supplying it to farmers within a decade. But this is just a proof of concept, not even a minimum viable product. The 100-year goal is not just to create one viable perennial crop, but to develop a “perennial polyculture”—many diverse systems of plants which can be planted in mixtures and form the foundation for continual improvement and adaptation in climates and regions all over the world. A sustainable system designed to adapt and survive.</p>
 
@@ -131,6 +131,7 @@ every thousand years. </p>
 <p>The land has other uses: there are still a few oil wells pumping, and the grassland is good for grazing. But underneath the ground, a new root system is growing, and soon it will start to build back up the soil. Maybe someday this land will grow food again. Maybe my grandchildren will come stand out in this field too, just in time for harvest. </p>
 
 <div class="footnotes entry-content-asset">
+  <hr />
   <ol>
     <li id="fn:1">
     <p>Wendell Berry, <a href="http://www.context.org/iclib/ic30/berry/">”Manifesto: The Mad Farmer Liberation Front,”</a> (<em>Reclaiming Politics</em>, 1991). <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
