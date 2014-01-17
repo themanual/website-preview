@@ -55,10 +55,6 @@
 </head>
 <body lang="en">
 
-  <!-- <header class="header"><div class="wrapper">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, iste, consequatur sunt inventore doloribus quo possimus atque qui consequuntur rerum animi dolores optio modi pariatur itaque repudiandae eum laborum officia.
-  </div></header> -->
-
   <main class="issue-<?= $fm['issue'] ?>" role="main">
     
     <!-- Article -->
