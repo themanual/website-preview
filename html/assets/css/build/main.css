@@ -654,6 +654,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 }
 @media screen and (max-width: 850px) {
   .issue-piece-header-illustration img {
+    max-height: 30em;
     max-height: 75vh;
   }
 }
