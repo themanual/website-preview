@@ -6,22 +6,19 @@
 
 // Settings
 @import "meta/settings";
-@import "meta/settings-color";
+@import "meta/color";
 
 // Neat and custom extensions
 @import "neat/app/assets/stylesheets/neat";
 @import "meta/neat-extensions";
 
 // Base
-
-@import "images";
+// @import "images";
 @import "base";
 @import "layout";
 
-
-
 // Template
-@import "template/header";
+// @import "template/header";
 // @import "template/footer";
 
 // Pages
@@ -36,11 +33,11 @@
 
 
 // Modules
-@import "modules/box";
+// @import "modules/box";
 // @import "modules/issuetoc";
-@import "modules/issuebuy";
+// @import "modules/issuebuy";
 // @import "modules/issue_entry";
-@import "modules/featured_piece";
+// @import "modules/featured_piece";
 // @import "modules/blog-post";
 // @import "modules/keyword-list";
 // @import "modules/post-list";
