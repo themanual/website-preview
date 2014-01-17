@@ -387,7 +387,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   font-size: 16px;
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 700;
-  font-style: normal;
   padding-right: 1.5em;
 }
 .header-nav-logo, .header-nav-logo a {
@@ -481,7 +480,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .header-nav-menu-item-dropdown > li[class^=issue-] > a strong {
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 500;
-  font-style: normal;
   background-color: #666;
   font-size: 0.85em;
   padding-right: 0.35em;
@@ -536,7 +534,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .header-nav .subscribe a {
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 500;
-  font-style: normal;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -768,7 +765,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .issue-piece-header-byline {
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 300;
-  font-style: normal;
   font-size: 17px;
   font-size: 0.70833rem;
   color: gray;
@@ -819,7 +815,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   display: block;
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 700;
-  font-style: normal;
   font-size: 30px;
   text-align: center;
   padding-top: 54px;
@@ -868,7 +863,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   font-weight: 700;
 }
 .issue-piece-text dl dd + * {
-  margin-top: 1.55em;
+  margin-top: 1.5em;
 }
 .issue-piece-text pre {
   margin-top: 1em;
@@ -879,10 +874,10 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   font-size: 0.7em;
 }
 .issue-piece-text blockquote {
-  margin-top: 1.55em;
-  margin-bottom: 1.55em;
-  padding-left: 1.55em;
-  padding-right: 1.55em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   color: #666666;
   border-left: solid 1px transparent;
   -webkit-box-sizing: border-box;
@@ -914,7 +909,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   font-style: italic;
 }
 .issue-piece-text ul, .issue-piece-text ol {
-  padding: 1.25em;
+  padding: 1.5em;
   padding-right: 0;
 }
 .issue-piece-text ol {
@@ -929,7 +924,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .issue-piece-text .footnote {
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 500;
-  font-style: normal;
   vertical-align: text-top;
   font-size: 0.6em;
   padding-left: 0.3em;
@@ -964,8 +958,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .issue-piece-text .footnotes {
   margin-top: 3em;
   font-family: "franklin-gothic-urw", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: normal;
   color: #999999;
 }
 .issue-piece-text .footnotes ol {
@@ -1004,7 +997,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .issue-piece-footer .companion {
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 500;
-  font-style: normal;
   font-size: 0.70833em;
   text-transform: uppercase;
   text-align: center;
@@ -1117,7 +1109,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .box-title, .box-title--lined {
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 700;
-  font-style: normal;
   font-size: 15px;
   color: #333333;
   text-transform: uppercase;
@@ -1153,8 +1144,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .issuebuy {
   *zoom: 1;
   font-family: "franklin-gothic-urw", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: normal;
   font-size: 15px;
 }
 .issuebuy:before, .issuebuy:after {
@@ -1358,7 +1348,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .featured_piece-byline a {
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 500;
-  font-style: normal;
 }
 .featured_piece-byline strong {
   color: #4d4d4d;

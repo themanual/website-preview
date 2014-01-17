@@ -1,28 +1,28 @@
 // Base Libraries
 @import "bourbon/app/assets/stylesheets/bourbon";
 @import "garnish/src/garnish";
+@import "mixins";
 @import "meta/reset";
 
 // Settings
 @import "meta/settings";
 @import "meta/settings-color";
-@import "meta/settings-type";
 
 // Neat and custom extensions
 @import "neat/app/assets/stylesheets/neat";
 @import "meta/neat-extensions";
 
 // Base
-@import "mixins";
+
 @import "images";
 @import "base";
 @import "layout";
 
+
+
 // Template
 @import "template/header";
 // @import "template/footer";
-
-
 
 // Pages
 // @import "pages/index";

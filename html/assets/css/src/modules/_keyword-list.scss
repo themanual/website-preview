@@ -1,7 +1,8 @@
 .keyword-list {
   font-size: 16px;
   line-height: 1.2;
-  @include sans-serif(regular);
+  font-family: $type-sans;
+font-weight: normal;
 }
 
 .keyword-list > li {

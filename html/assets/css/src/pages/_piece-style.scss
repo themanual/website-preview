@@ -60,7 +60,8 @@
 }
 
 .issue-piece-header-byline {
-  @include sans-serif(light);
+  font-family: $type-sans;
+  font-weight: weight(light);
   @include rem(font-size, 17px);
   color: $color-text-caption;
   line-height: 1.25;
@@ -102,7 +103,8 @@
     content: "\00d7";
 
     display: block;
-    @include sans-serif(bold);
+    font-family: $type-sans;
+    font-weight: weight(bold);
     font-size: 30px;
     text-align: center;
     
@@ -133,11 +135,7 @@
   //
   // Text
   //
-  p, li, blockquote {
-    // @include hyphenated;
-  }
-
-  $p-margin: 1.55em;
+  $p-margin: 1.5em;
 
   p + p {
     margin-top: 1em;
@@ -188,7 +186,7 @@
   }
 
   ul, ol { 
-    padding: $type-indent;
+    padding: $p-margin;
     padding-right: 0;
   }
 
@@ -197,7 +195,8 @@
   li > p:first-child { margin-top: 0; }
   
   .footnote {
-    @include sans-serif(medium);
+    font-family: $type-sans;
+    font-weight: weight(medium);
     vertical-align: text-top;
     font-size: 0.6em;
     padding-left: 0.3em;
@@ -213,7 +212,7 @@
   //
 
   figure {
-    margin: $type-breaks auto;
+    margin: 1.5em auto;
     max-width: 100%;
 
     figcaption {
@@ -248,7 +247,8 @@
   .footnotes {
     margin-top: 3em;
 
-    @include sans-serif(regular);
+    font-family: $type-sans;
+font-weight: normal;
     color: gray(60%);
 
     ol {
@@ -284,7 +284,8 @@
 
   .companion {
 
-    @include sans-serif(medium);
+    font-family: $type-sans;
+  font-weight: weight(medium);
     font-size: em(17, $type-main-value);
     text-transform: uppercase;
 

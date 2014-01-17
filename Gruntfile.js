@@ -14,6 +14,7 @@ module.exports = function(grunt) {
       dev: {
         options: {
           style:      'expanded',
+          trace:      true,
           loadPath:   ['bower_components'],
           require:    ['./sass_functions/base64.rb', './sass_functions/url_encode.rb']
         },

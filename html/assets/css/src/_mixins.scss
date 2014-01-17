@@ -10,6 +10,20 @@
   @return dashed 1px darken($color-divider, 5%);
 }
 
+@function weight($keyword) {
+  @if      $keyword == thin                           { @return 100; }
+  @else if $keyword == extralight                     { @return 200; }
+  @else if $keyword == light                          { @return 300; }
+  @else if $keyword == book or $keyword == regular    { @return 400; }
+  @else if $keyword == medium                         { @return 500; }
+  @else if $keyword == semibold                       { @return 600; }
+  @else if $keyword == bold                           { @return 700; }
+  @else if $keyword == extrabold                      { @return 800; }
+  @else if $keyword == black                          { @return 900; }
+  
+  @return 400;
+}
+
 @mixin colored-link {
   &:hover,
   &:focus,
@@ -25,7 +39,8 @@
 
 
 @mixin smallcaps-heading {
-  @include sans-serif(bold);
+  font-family: $type-sans;
+  font-weight: weight(bold);
   font-size: 15px;
   color: gray(20%);
   
@@ -45,7 +60,8 @@
 }
 
 @mixin issue-number {
-  @include sans-serif(bold);
+  font-family: $type-sans;
+  font-weight: weight(bold);
   @include color-by-issue(background);
   
   font-size: 0.85em;
