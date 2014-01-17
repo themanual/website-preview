@@ -148,6 +148,11 @@ textarea {
 html {
   font-size: 24px;
 }
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 22px;
+  }
+}
 @media screen and (max-width: 650px) {
   html {
     font-size: 21px;
@@ -204,7 +209,7 @@ a.issue-3:hover, a.issue-3:focus, a.issue-3:active, .issue-3 a.issue-current:hov
   color: black;
 }
 a.issue-4, .issue-4 a.issue-current {
-  color: #1ccfb5;
+  color: #2dc3ab;
 }
 a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hover, .issue-4 a.issue-current:focus, .issue-4 a.issue-current:active {
   color: black;
@@ -506,7 +511,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   background-color: black;
 }
 .header-nav-menu-item-dropdown > li.issue-4 > a strong {
-  background-color: #1ccfb5;
+  background-color: #2dc3ab;
 }
 .header-nav-menu-item-dropdown > li.issue-4 > a:hover strong {
   background-color: black;
@@ -598,7 +603,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   }
 }
 
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 851px) {
   .issue-piece-header {
     *zoom: 1;
     display: block;
@@ -635,8 +640,9 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   }
   .issue-piece-header-illustration figure {
     float: right;
-    max-height: 26em;
     *zoom: 1;
+    max-width: 528px;
+    max-width: 22rem;
   }
   .issue-piece-header-illustration figure:before, .issue-piece-header-illustration figure:after {
     content: " ";
@@ -645,13 +651,10 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   .issue-piece-header-illustration figure:after {
     clear: both;
   }
-  .issue-piece-header-illustration img {
-    max-height: 100%;
-  }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   .issue-piece-header-illustration img {
-    max-height: 70vh;
+    max-height: 75vh;
   }
 }
 .issue-piece-header-text:first-child {
@@ -700,33 +703,30 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   color: black;
 }
 .issue-4 .issue-piece a {
-  color: #1ccfb5;
+  color: #2dc3ab;
 }
 .issue-4 .issue-piece a:hover, .issue-4 .issue-piece a:focus, .issue-4 .issue-piece a:active {
   color: black;
 }
 
-.issue-piece-header-text {
-  margin-top: 0.5em;
-}
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   .issue-piece-header-text {
     text-align: center;
   }
-}
-@media screen and (min-width: 651px) and (max-width: 900px) {
-  .issue-piece-header-text {
-    font-size: 0.8em;
+  .issue-piece-header-text > * {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 851px) {
   .issue-piece-header-text {
-    margin-top: 20%;
+    margin-top: 22%;
   }
 }
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 851px) and (max-width: 1100px) {
   .issue-piece-header-text {
-    margin-top: 8em;
+    margin-top: 25%;
+    font-size: 0.9em;
   }
 }
 
@@ -757,13 +757,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   margin-bottom: 2em;
   max-width: 20em;
 }
-@media screen and (max-width: 650px) {
-  .issue-piece-header-synopsis {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 851px) {
   .issue-piece-header-synopsis {
     line-height: 1.4;
     margin-bottom: 1.4em;
@@ -795,10 +789,19 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
     font-size: 19px;
     font-size: 0.79167rem;
   }
+}
+@media screen and (max-width: 650px) {
   .issue-piece-header-byline .middot {
     display: block;
     visibility: hidden;
     height: 0.5em;
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 1100px) {
+  .issue-piece-header-byline .middot {
+    display: block;
+    visibility: hidden;
+    height: 0.25em;
   }
 }
 
@@ -842,7 +845,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   color: #ec9a3a;
 }
 .issue-4 .issue-piece-text:before, .issue-4 .issue-piece-text:after {
-  color: #1ccfb5;
+  color: #2dc3ab;
 }
 .issue-piece-text > h2 {
   font-size: 1.1em;
@@ -895,7 +898,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   border-color: #ec9a3a;
 }
 .issue-4 .issue-piece-text blockquote {
-  border-color: #1ccfb5;
+  border-color: #2dc3ab;
 }
 .issue-piece-text blockquote > p + p:last-child > cite:only-child {
   display: block;
@@ -1026,7 +1029,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   color: #ec9a3a;
 }
 .issue-4 .issue-piece-footer .companion a strong {
-  color: #1ccfb5;
+  color: #2dc3ab;
 }
 .issue-piece-footer .companion a:hover {
   color: black;
@@ -1242,7 +1245,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   background: #ec9a3a;
 }
 .issue-4 .issuebuy-option-button a {
-  background: #1ccfb5;
+  background: #2dc3ab;
 }
 .issuebuy-option-button a:first-letter {
   font-weight: 400;
@@ -1276,7 +1279,7 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   color: #ec9a3a;
 }
 .issue-4 .issuebuy.has-whitebuttons .issuebuy-option-button a:first-letter {
-  color: #1ccfb5;
+  color: #2dc3ab;
 }
 .issuebuy.has-whitebuttons .issuebuy-option-button a:hover {
   background-color: black;

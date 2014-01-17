@@ -7,22 +7,18 @@
 
 .issue-piece-header-text {
 
-  @include media-upto($bp-s) {
+  @include media-upto($bp-l) {
     text-align: center;
-  }
-
-  margin-top: 0.5em;
-
-  @include media-between($bp-s, $bp-l) {
-    font-size: 0.8em;
-  }
-
-  @include media-from($bp-s) {
-    margin-top: 20%;
+    > * { @include centered; }
   }
 
   @include media-from($bp-l) {
-    margin-top: 8em;
+    margin-top: 22%;
+  }
+
+  @include media-between($bp-l, $bp-xl) {
+    margin-top: 25%;
+    font-size: 0.9em;
   }
 
 }
@@ -57,11 +53,7 @@
   margin-bottom:  2em;
   max-width: 20em;
   
-  @include media-upto($bp-s) {
-    @include centered;
-  }
-
-  @include media-from($bp-s) {
+  @include media-from($bp-l) {
     line-height: 1.4;
     margin-bottom: 1.4em;
   }
@@ -79,7 +71,11 @@
 
   @include media-upto($bp-s) {
     @include rem(font-size, 19px);
-    .middot { display: block; visibility: hidden; height: 0.5em; }
+  }
+
+  .middot {
+    @include media-upto($bp-s)            { @include middot-break; }
+    @include media-between($bp-l, $bp-xl) { @include middot-break(0.25em); }
   }
   
 }

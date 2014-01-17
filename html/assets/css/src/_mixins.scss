@@ -1,3 +1,7 @@
+@mixin middot-break($h:0.5em) {
+  display: block; visibility: hidden; height: $h;
+}
+
 @function divider() {
   @return solid 1px $color-divider;
 }
