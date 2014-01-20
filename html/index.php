@@ -47,7 +47,6 @@
   <!-- JS -->
   <script type="text/javascript" src="//use.typekit.net/wnf5tgz.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" media="screen" href="/assets/css/build/main.min.css?v1.1" />
