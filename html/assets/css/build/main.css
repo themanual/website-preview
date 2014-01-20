@@ -182,6 +182,22 @@ figure img {
   margin: 0 auto;
 }
 
+.issue-1 .issue-current {
+  color: #ef3e42;
+}
+
+.issue-2 .issue-current {
+  color: #52bae1;
+}
+
+.issue-3 .issue-current {
+  color: #ec9a3a;
+}
+
+.issue-4 .issue-current {
+  color: #2dc3ab;
+}
+
 a {
   text-decoration: none;
   color: #4d4d4d;
@@ -189,25 +205,25 @@ a {
 a:hover, a:focus, a:active {
   color: black;
 }
-a.issue-1, .issue-1 a.issue-current {
+a.issue-1:link, a.issue-1:visited, .issue-1 a.issue-current:link, .issue-1 a.issue-current:visited {
   color: #ef3e42;
 }
 a.issue-1:hover, a.issue-1:focus, a.issue-1:active, .issue-1 a.issue-current:hover, .issue-1 a.issue-current:focus, .issue-1 a.issue-current:active {
   color: black;
 }
-a.issue-2, .issue-2 a.issue-current {
+a.issue-2:link, a.issue-2:visited, .issue-2 a.issue-current:link, .issue-2 a.issue-current:visited {
   color: #52bae1;
 }
 a.issue-2:hover, a.issue-2:focus, a.issue-2:active, .issue-2 a.issue-current:hover, .issue-2 a.issue-current:focus, .issue-2 a.issue-current:active {
   color: black;
 }
-a.issue-3, .issue-3 a.issue-current {
+a.issue-3:link, a.issue-3:visited, .issue-3 a.issue-current:link, .issue-3 a.issue-current:visited {
   color: #ec9a3a;
 }
 a.issue-3:hover, a.issue-3:focus, a.issue-3:active, .issue-3 a.issue-current:hover, .issue-3 a.issue-current:focus, .issue-3 a.issue-current:active {
   color: black;
 }
-a.issue-4, .issue-4 a.issue-current {
+a.issue-4:link, a.issue-4:visited, .issue-4 a.issue-current:link, .issue-4 a.issue-current:visited {
   color: #2dc3ab;
 }
 a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hover, .issue-4 a.issue-current:focus, .issue-4 a.issue-current:active {
@@ -523,12 +539,13 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   padding-left: 0.3em;
   padding-right: 0.3em;
 }
-.issue-piece-header-byline a {
-  font-weight: 500;
-}
 .issue-piece-header-byline strong {
   color: black;
   font-weight: 400;
+}
+.issue-piece-header-byline a,
+.issue-piece-header-byline strong.issue-current {
+  font-weight: 500;
 }
 @media screen and (max-width: 650px) {
   .issue-piece-header-byline {

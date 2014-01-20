@@ -26,6 +26,12 @@ figure img {
   margin: 0 auto;
 }
 
+@each $i in $issues {
+  .issue-#{$i} .issue-current {
+    color: issue-color($i);
+  }
+}
+
 a {
   text-decoration: none;
   
@@ -36,7 +42,7 @@ a {
   @each $i in $issues {
     &.issue-#{$i},
     .issue-#{$i} &.issue-current {
-      color: issue-color($i);
+      &:link, &:visited { color: issue-color($i); }
       @include colored-link;
     }
   }
