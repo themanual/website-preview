@@ -98,9 +98,12 @@
   color: $color-text-body;
   line-height: 1.5;
 
+  strong { font-weight: 600; }
+
   .tr-coretext & {
     -webkit-font-smoothing: antialiased;
     font-weight: 500;
+    strong { font-weight: 700; }
   }
 
   &:before, &:after {

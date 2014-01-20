@@ -572,9 +572,15 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   color: #333333;
   line-height: 1.5;
 }
+.issue-piece-text strong {
+  font-weight: 600;
+}
 .tr-coretext .issue-piece-text {
   -webkit-font-smoothing: antialiased;
   font-weight: 500;
+}
+.tr-coretext .issue-piece-text strong {
+  font-weight: 700;
 }
 .issue-piece-text:before, .issue-piece-text:after {
   content: "\00d7";
