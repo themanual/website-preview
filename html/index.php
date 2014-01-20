@@ -49,7 +49,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
   <!-- CSS -->
-  <link rel="stylesheet" media="screen" href="/assets/css/build/main.min.css" />
+  <link rel="stylesheet" media="screen" href="/assets/css/build/main.min.css?v1.0" />
 
   
 </head>
@@ -82,6 +82,6 @@
     </div>
   </div></footer>
   
-  <script src="/assets/js/build/main.min.js"></script>
+  <script src="/assets/js/build/main.min.js?v1.0"></script>
 </body>
 </html>
