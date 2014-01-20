@@ -1,0 +1,35 @@
+body > header,
+body > footer {
+  // background: white;
+  > div { @include container-spacing(padding); }
+}
+
+body > header { border-bottom: divider(); }
+body > footer { border-top: divider(); }
+
+.preview-header,
+.preview-footer {
+  font-family: $type-sans;
+  max-width: 36em;
+  @include centered;
+  @include rem(font-size, 18px);
+  line-height: 1.5;
+
+  color: gray(40%);
+
+  strong {
+    color: black;
+    font-weight: weight(medium);
+  }
+
+  a {
+    &:link, &:visited {
+      color: issue-color(4);
+    }
+    @include colored-link;
+  }
+}
+
+.preview-footer {
+  max-width: 40em;
+}

@@ -55,6 +55,12 @@
 </head>
 <body lang="en">
 
+  <header><div>
+    <div class="preview-header">
+      <p><strong>Hello.</strong> This is a preview of an article from the upcoming fourth issue of <a href="http://alwaysreadthemanual.com/">The Manual.</a> We will relaunch with a completely new site, full-time staff, and a regular publication schedule. On our blog, you can read about <a href="#">what’s happened</a> and <a href="#">what to expect.</a></p>
+    </div>
+  </div></header>
+
   <main class="issue-<?= $fm['issue'] ?>" role="main">
     
     <!-- Article -->
@@ -69,6 +75,12 @@
     </div></article>
 
   </main>
+
+  <footer><div>
+    <div class="preview-footer">
+      <p><strong>Thanks for reading.</strong> If you liked this article, you can <a href="http://buy.alwaysreadthemanual.com/">buy previous issues</a> of The Manual and <a href="http://campaigns.fiction.co/h/y/A77E870E36AE0307">be notified when Issue 4 launches.</a> We’ll be sharing previews and insights from the making of our upcoming website and issues on our <a href="http://blog.alwaysreadthemanual.com/">Blog</a>, <a href="https://twitter.com/themanual">Twitter</a> and <a href="http://dribbble.com/themanual">Dribbble</a>, so you can follow along.</p>
+    </div>
+  </div></footer>
   
   <script src="/assets/js/build/main.min.js"></script>
 </body>

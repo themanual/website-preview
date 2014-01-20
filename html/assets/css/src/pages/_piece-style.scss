@@ -161,7 +161,9 @@
 
   blockquote {
     @include margin-v($p-margin);
-    @include padding-h($p-margin);
+    
+    padding-left: 1em;
+    @include media-from($bp-l) { @include padding-h(1.25em); }
     
     color: $color-text-blockquote;
     border-left: solid 1px transparent;

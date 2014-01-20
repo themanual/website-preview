@@ -625,13 +625,18 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .issue-piece-text blockquote {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-left: 1em;
   color: #666666;
   border-left: solid 1px transparent;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+@media screen and (min-width: 851px) {
+  .issue-piece-text blockquote {
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
 }
 .issue-1 .issue-piece-text blockquote {
   border-color: #ef3e42;
@@ -776,4 +781,57 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 .issue-piece-footer .companion a:hover {
   color: black;
   border-color: #cccccc;
+}
+
+body > header > div,
+body > footer > div {
+  padding: 36px;
+  padding: 1.5rem;
+}
+@media screen and (max-width: 500px) {
+  body > header > div,
+  body > footer > div {
+    padding: 24px;
+    padding: 1rem;
+  }
+}
+
+body > header {
+  border-bottom: solid 1px #e6e6e6;
+}
+
+body > footer {
+  border-top: solid 1px #e6e6e6;
+}
+
+.preview-header,
+.preview-footer {
+  font-family: "franklin-gothic-urw", sans-serif;
+  max-width: 36em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #666666;
+}
+.preview-header strong,
+.preview-footer strong {
+  color: black;
+  font-weight: 500;
+}
+.preview-header a:link, .preview-header a:visited,
+.preview-footer a:link,
+.preview-footer a:visited {
+  color: #2dc3ab;
+}
+.preview-header a:hover, .preview-header a:focus, .preview-header a:active,
+.preview-footer a:hover,
+.preview-footer a:focus,
+.preview-footer a:active {
+  color: black;
+}
+
+.preview-footer {
+  max-width: 40em;
 }
