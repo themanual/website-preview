@@ -26,6 +26,7 @@
     }
   ?>
   </title>
+  <meta name="description" content="<?= $fm['metadata'][$fm['type']]['synopsis'] ?>" />
   
   <!-- Twitter / OG -->
   <meta name="twitter:card" content="summary" />
