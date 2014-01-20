@@ -26,8 +26,8 @@ function make_title($fm) {
   return $title . ", by " . $fm['metadata']['author'] . ' · Issue ' . $fm['issue'];
 }
 
-function illustration_path($issue, $key, $variant) {
-  return '/assets/images/illustrations/issues/'.$issue.'/'.$key.'/'.$variant.'.jpg';
+function illustration_path($issue, $key, $variant, $extension = 'png') {
+  return '/assets/images/illustrations/issues/'.$issue.'/'.$key.'/'.$variant.'.'.$extension;
 }
 
 function portrait_path($issue, $key) {
