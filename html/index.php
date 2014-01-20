@@ -78,7 +78,7 @@
 
   <footer><div>
     <div class="preview-footer">
-      <p><strong>Thanks for reading.</strong> If you liked this article, you can <a href="http://buy.alwaysreadthemanual.com/">buy previous issues</a> of The Manual and <a href="http://campaigns.fiction.co/h/y/A77E870E36AE0307">be notified when Issue 4 launches.</a> We’ll be sharing previews and insights from the making of our upcoming website and issues on our <a href="http://blog.alwaysreadthemanual.com/">Blog</a>, <a href="https://twitter.com/themanual">Twitter</a> and <a href="http://dribbble.com/themanual">Dribbble</a>, so you can follow along.</p>
+      <p><strong>Thanks for reading.</strong> If you liked this article, you can <a href="http://buy.alwaysreadthemanual.com/">buy previous issues</a> of The Manual and <a href="http://campaigns.fiction.co/h/y/A77E870E36AE0307">be notified when Issue 4 launches.</a> You can follow along on our <a href="http://blog.alwaysreadthemanual.com/">Blog</a>, <a href="https://twitter.com/themanual">Twitter</a>, and <a href="http://dribbble.com/themanual">Dribbble</a> as we share previews and insights from the making of our upcoming website and issues.</p>
     </div>
   </div></footer>
   
