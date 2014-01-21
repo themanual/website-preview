@@ -57,7 +57,7 @@
 
   <header><div>
     <div class="preview-header">
-      <p><strong>Hi there.</strong> This is a preview of an article from Issue 4 of <a href="http://alwaysreadthemanual.com/">The Manual.</a> Wondering where we’ve been? Read about <a href="#">what’s been going on</a>, and <a href="#">what’s coming next.</a></p>
+      <p><strong>Hi there.</strong> This is a preview of an article from Issue 4 of <a href="http://alwaysreadthemanual.com/">The Manual.</a> Wondering where we’ve been? Read about <a href="http://blog.alwaysreadthemanual.com/2014/01/21/for-immediate-release/">what’s been going on, and what’s coming next.</a></p>
     </div>
   </div></header>
 
@@ -88,7 +88,7 @@
         </form>
       </div>
       <div class="preview-footer-text">
-        <p><strong>Want to keep in touch?</strong> Follow along on our <a href="http://blog.alwaysreadthemanual.com/">Blog</a>, <a href="https://twitter.com/themanual">Twitter</a>, and <a href="http://dribbble.com/themanual">Dribbble</a> as we share previews and insights from the making of our upcoming website and issues.</p>
+        <p><strong>Want to keep in touch?</strong> Follow along on our <a href="http://blog.alwaysreadthemanual.com/">blog</a>, <a href="https://twitter.com/themanual">Twitter</a>, and <a href="http://dribbble.com/themanual">Dribbble</a> as we share previews and insights from the making of our upcoming website and issues.</p>
       </div>
     </div>
   </div></footer>
