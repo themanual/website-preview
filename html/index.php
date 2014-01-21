@@ -49,7 +49,7 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <!-- CSS -->
-  <link rel="stylesheet" media="screen" href="/assets/css/build/main.min.css?v1.1" />
+  <link rel="stylesheet" media="screen" href="/assets/css/build/main.min.css?v1.2" />
 
   
 </head>
