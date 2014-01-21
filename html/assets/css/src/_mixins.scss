@@ -41,7 +41,7 @@
 @mixin smallcaps-heading {
   font-family: $type-sans;
   font-weight: weight(bold);
-  font-size: 15px;
+  @include rem(font-size, 15px);
   color: gray(20%);
   
   text-transform: uppercase;
@@ -51,7 +51,7 @@
 
 @mixin smallcaps-heading-thin {
   font-family: $type-sans;
-  font-size: 15px;
+  @include rem(font-size, 15px);
   color: gray(60%);
   
   text-transform: uppercase;

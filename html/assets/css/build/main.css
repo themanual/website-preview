@@ -830,18 +830,85 @@ body > footer {
 .preview-header,
 .preview-footer {
   font-family: "franklin-gothic-urw", sans-serif;
-  max-width: 36em;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.5;
   font-size: 18px;
   font-size: 0.75rem;
-  line-height: 1.5;
   color: #666666;
+}
+.preview-header h2,
+.preview-footer h2 {
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  font-size: 0.625rem;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  margin-bottom: 0.25em;
 }
 .preview-header strong,
 .preview-footer strong {
   color: black;
   font-weight: 500;
+}
+.preview-header label,
+.preview-footer label {
+  font-weight: 500;
+}
+.preview-header label, .preview-header input,
+.preview-footer label,
+.preview-footer input {
+  height: 30px;
+  height: 1.25rem;
+  vertical-align: middle;
+}
+.preview-header input,
+.preview-footer input {
+  font-family: "franklin-gothic-urw", sans-serif;
+  font-size: 17px;
+  font-size: 0.70833rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+.preview-header input[type='email'],
+.preview-footer input[type='email'] {
+  border: solid 1px #b3b3b3;
+  padding-left: 0.3em;
+  color: black;
+  max-width: 12em;
+  border-radius: 0px;
+}
+.preview-header input[type='email']:hover, .preview-header input[type='email']:focus,
+.preview-footer input[type='email']:hover,
+.preview-footer input[type='email']:focus {
+  outline: none;
+  border-color: black;
+}
+.preview-header input[type='submit'],
+.preview-footer input[type='submit'] {
+  border: 1px solid #2dc3ab;
+  border-radius: 4px;
+  border-radius: 0.16667rem;
+  color: #2dc3ab;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.preview-header input[type='submit']:hover, .preview-header input[type='submit']:focus,
+.preview-footer input[type='submit']:hover,
+.preview-footer input[type='submit']:focus {
+  outline: none;
+  border-color: black;
+  color: black;
 }
 .preview-header a:link, .preview-header a:visited,
 .preview-footer a:link,
@@ -855,6 +922,41 @@ body > footer {
   color: black;
 }
 
-.preview-footer {
-  max-width: 40em;
+.preview-header {
+  max-width: 36em;
+}
+
+@media screen and (max-width: 650px) {
+  .preview-footer > * + * {
+    margin-top: 54px;
+    margin-top: 2.25rem;
+  }
+}
+@media screen and (max-width: 650px) and (max-width: 500px) {
+  .preview-footer > * + * {
+    margin-top: 36px;
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (min-width: 651px) {
+  .preview-footer {
+    *zoom: 1;
+    display: block;
+  }
+  .preview-footer:before, .preview-footer:after {
+    content: " ";
+    display: table;
+  }
+  .preview-footer:after {
+    clear: both;
+  }
+  .preview-footer > * {
+    float: left;
+    display: block;
+    margin-right: 3.16742%;
+    width: 48.41629%;
+  }
+  .preview-footer > *:last-child {
+    margin-right: 0;
+  }
 }

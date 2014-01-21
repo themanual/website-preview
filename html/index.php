@@ -57,7 +57,7 @@
 
   <header><div>
     <div class="preview-header">
-      <p><strong>Hello.</strong> This is a preview of an article from the upcoming fourth issue of <a href="http://alwaysreadthemanual.com/">The Manual.</a> We will relaunch with a completely new site, full-time staff, and a regular publication schedule. On our blog, you can read about <a href="#">what’s happened</a> and <a href="#">what to expect.</a></p>
+      <p><strong>Hi there.</strong> This is a preview of an article from Issue #4 of <a href="http://alwaysreadthemanual.com/">The Manual.</a> Wondering where we’ve been? Read about <a href="#">what’s been going on</a>, and <a href="#">what’s coming next.</a></p>
     </div>
   </div></header>
 
@@ -78,7 +78,20 @@
 
   <footer><div>
     <div class="preview-footer">
-      <p><strong>Thanks for reading.</strong> If you liked this article, you can <a href="http://buy.alwaysreadthemanual.com/">buy previous issues</a> of The Manual and <a href="http://campaigns.fiction.co/h/y/A77E870E36AE0307">be notified when Issue 4 launches.</a> You can follow along on our <a href="http://blog.alwaysreadthemanual.com/">Blog</a>, <a href="https://twitter.com/themanual">Twitter</a>, and <a href="http://dribbble.com/themanual">Dribbble</a> as we share previews and insights from the making of our upcoming website and issues.</p>
+      <div class="preview-footer-form">
+        <h2>Thanks for reading</h2>
+        <p>This is an article from Issue #4 of <a href="http://alwaysreadthemanual.com/">The Manual</a>, coming March 2014.</p>
+        <form action="http://campaigns.fiction.co/t/y/s/qtrjtk/" method="post">
+          <p>
+            <label for="preview-footer-form-email">Sign up to be notified:</label>
+            <input type="email" name="cm-qtrjtk-qtrjtk" id="preview-footer-form-email" placeholder="name@domain.com" />&nbsp;<input type="submit" value="Send" />
+          </p>
+        </form>
+      </div>
+      <div class="preview-footer-text">
+        <h2>Stay in touch</h2>
+        <p>Follow along on our <a href="http://blog.alwaysreadthemanual.com/">blog</a>, <a href="https://twitter.com/themanual">Twitter</a>, and <a href="http://dribbble.com/themanual">Dribbble</a> as we share previews and insights from the making of our upcoming website and issues.</p>
+      </div>
     </div>
   </div></footer>
   

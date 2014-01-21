@@ -10,16 +10,62 @@ body > footer { border-top: divider(); }
 .preview-header,
 .preview-footer {
   font-family: $type-sans;
-  max-width: 36em;
   @include centered;
-  @include rem(font-size, 18px);
   line-height: 1.5;
-
+  @include rem(font-size, 18px);
   color: gray(40%);
+
+  h2 {
+    @include smallcaps-heading;
+    margin-bottom: 0.25em;
+  }
 
   strong {
     color: black;
     font-weight: weight(medium);
+  }
+
+  label {
+    font-weight: weight(medium);
+  }
+
+  label, input {
+    @include rem(height, 1.25rem);
+    vertical-align: middle;
+  }
+
+  input {
+    font-family: $type-sans;
+    @include rem(font-size, 17px);
+    @include box-sizing(border-box);
+    background-color: white;
+    @include appearance(none);
+  }
+
+  input[type='email'] {
+    border: solid 1px gray(70%);
+    padding-left: 0.3em;
+    color: black;
+    max-width: 12em;
+    border-radius: 0px;
+
+    @include hover {
+      outline: none;
+      border-color: black;
+    }
+  }
+
+  input[type='submit'] {
+    border: 1px solid issue-color(4);
+    @include rem(border-radius, 4px);
+    color: issue-color(4);
+    @include padding-h(0.5em);
+
+    @include hover {
+      outline: none;
+      border-color: black;
+      color: black;
+    }
   }
 
   a {
@@ -30,6 +76,18 @@ body > footer { border-top: divider(); }
   }
 }
 
+.preview-header {
+  max-width: 36em;
+}
+
 .preview-footer {
-  max-width: 40em;
+  @include media-upto($bp-s) {
+    > * + * {
+      @include container-spacing(margin-top, 1.5);
+    }
+  }
+  @include media-from($bp-s) {
+    @include row;
+    > * { @include span-columns(6); }
+  }
 }
