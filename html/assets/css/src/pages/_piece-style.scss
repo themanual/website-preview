@@ -144,7 +144,12 @@
   //
   $p-margin: 1.5em;
 
-  p + p {
+  > p + p {
+    text-indent: 1em;
+    @include media-from($bp-l) { text-indent: 1.25em; }
+  }
+
+  > blockquote p + p {
     margin-top: 1em;
   }
 

@@ -57,7 +57,7 @@
 
   <header><div>
     <div class="preview-header">
-      <p><strong>Hi there.</strong> This is a preview of an article from Issue #4 of <a href="http://alwaysreadthemanual.com/">The Manual.</a> Wondering where we’ve been? Read about <a href="#">what’s been going on</a>, and <a href="#">what’s coming next.</a></p>
+      <p><strong>Hi there.</strong> This is a preview of an article from Issue 4 of <a href="http://alwaysreadthemanual.com/">The Manual.</a> Wondering where we’ve been? Read about <a href="#">what’s been going on</a>, and <a href="#">what’s coming next.</a></p>
     </div>
   </div></header>
 
@@ -80,7 +80,7 @@
     <div class="preview-footer">
       <div class="preview-footer-form">
         <h2>Thanks for reading</h2>
-        <p>This is an article from Issue #4 of <a href="http://alwaysreadthemanual.com/">The Manual</a>, coming March 2014.</p>
+        <p>This is an article from Issue 4 of <a href="http://alwaysreadthemanual.com/">The Manual</a>, coming March 2014.</p>
         <form action="http://campaigns.fiction.co/t/y/s/qtrjtk/" method="post">
           <p>
             <label for="preview-footer-form-email">Sign up to be notified:</label>
@@ -90,7 +90,7 @@
       </div>
       <div class="preview-footer-text">
         <h2>Stay in touch</h2>
-        <p>Follow along on our <a href="http://blog.alwaysreadthemanual.com/">blog</a>, <a href="https://twitter.com/themanual">Twitter</a>, and <a href="http://dribbble.com/themanual">Dribbble</a> as we share previews and insights from the making of our upcoming website and issues.</p>
+        <p>Follow along on our <a href="http://blog.alwaysreadthemanual.com/">Blog</a>, <a href="https://twitter.com/themanual">Twitter</a>, and <a href="http://dribbble.com/themanual">Dribbble</a> as we share previews and insights from the making of our upcoming website and issues.</p>
       </div>
     </div>
   </div></footer>
