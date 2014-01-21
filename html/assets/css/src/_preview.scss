@@ -25,10 +25,6 @@ body > footer { border-top: divider(); }
     font-weight: weight(medium);
   }
 
-  label {
-    font-weight: weight(medium);
-  }
-
   label, input {
     @include rem(height, 1.25rem);
     vertical-align: middle;
@@ -81,13 +77,8 @@ body > footer { border-top: divider(); }
 }
 
 .preview-footer {
-  @include media-upto($bp-s) {
-    > * + * {
-      @include container-spacing(margin-top, 1.5);
-    }
-  }
-  @include media-from($bp-s) {
-    @include row;
-    > * { @include span-columns(6); }
+  max-width: 40em;
+  > * + * {
+    @include container-spacing(margin-top);
   }
 }

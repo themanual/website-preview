@@ -616,7 +616,6 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
   color: #2dc3ab;
 }
 .issue-piece-text > h2 {
-  font-size: 1.1em;
   line-height: 1.1;
   font-family: "franklin-gothic-urw", sans-serif;
   font-weight: 600;
@@ -876,10 +875,6 @@ body > footer {
   color: black;
   font-weight: 500;
 }
-.preview-header label,
-.preview-footer label {
-  font-weight: 500;
-}
 .preview-header label, .preview-header input,
 .preview-footer label,
 .preview-footer input {
@@ -948,37 +943,16 @@ body > footer {
   max-width: 36em;
 }
 
-@media screen and (max-width: 650px) {
-  .preview-footer > * + * {
-    margin-top: 54px;
-    margin-top: 2.25rem;
-  }
+.preview-footer {
+  max-width: 40em;
 }
-@media screen and (max-width: 650px) and (max-width: 500px) {
-  .preview-footer > * + * {
-    margin-top: 36px;
-    margin-top: 1.5rem;
-  }
+.preview-footer > * + * {
+  margin-top: 36px;
+  margin-top: 1.5rem;
 }
-@media screen and (min-width: 651px) {
-  .preview-footer {
-    *zoom: 1;
-    display: block;
-  }
-  .preview-footer:before, .preview-footer:after {
-    content: " ";
-    display: table;
-  }
-  .preview-footer:after {
-    clear: both;
-  }
-  .preview-footer > * {
-    float: left;
-    display: block;
-    margin-right: 3.16742%;
-    width: 48.41629%;
-  }
-  .preview-footer > *:last-child {
-    margin-right: 0;
+@media screen and (max-width: 500px) {
+  .preview-footer > * + * {
+    margin-top: 24px;
+    margin-top: 1rem;
   }
 }

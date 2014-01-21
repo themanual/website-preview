@@ -79,18 +79,16 @@
   <footer><div>
     <div class="preview-footer">
       <div class="preview-footer-form">
-        <h2>Thanks for reading</h2>
-        <p>This is an article from Issue 4 of <a href="http://alwaysreadthemanual.com/">The Manual</a>, coming March 2014.</p>
+        <p><strong>Thanks for reading.</strong> This is an article from Issue 4 of <a href="http://alwaysreadthemanual.com/">The Manual</a>, coming March 2014.</p>
         <form action="http://campaigns.fiction.co/t/y/s/qtrjtk/" method="post">
           <p>
-            <label for="preview-footer-form-email">Sign up to be notified:</label>
+            <label for="preview-footer-form-email">Leave your email and we’ll tell you when it launches:</label>
             <input type="email" name="cm-qtrjtk-qtrjtk" id="preview-footer-form-email" placeholder="name@domain.com" />&nbsp;<input type="submit" value="Send" />
           </p>
         </form>
       </div>
       <div class="preview-footer-text">
-        <h2>Stay in touch</h2>
-        <p>Follow along on our <a href="http://blog.alwaysreadthemanual.com/">Blog</a>, <a href="https://twitter.com/themanual">Twitter</a>, and <a href="http://dribbble.com/themanual">Dribbble</a> as we share previews and insights from the making of our upcoming website and issues.</p>
+        <p><strong>Want to keep in touch?</strong> Follow along on our <a href="http://blog.alwaysreadthemanual.com/">Blog</a>, <a href="https://twitter.com/themanual">Twitter</a>, and <a href="http://dribbble.com/themanual">Dribbble</a> as we share previews and insights from the making of our upcoming website and issues.</p>
       </div>
     </div>
   </div></footer>
