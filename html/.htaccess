@@ -1,8 +1,8 @@
 RewriteEngine On
 RewriteBase /
 
-Redirect 302 /blog/posts.xml http://blog.alwaysreadthemanual.com/posts.xml
-Redirect 302 /blog/synopses.xml http://blog.alwaysreadthemanual.com/synopses.xml
+RewriteRule ^blog/posts.xml$ http://blog.alwaysreadthemanual.com/posts.xml [L,R=302]
+RewriteRule ^blog/synopses.xml$ http://blog.alwaysreadthemanual.com/synopses.xml [L,R=302]
 
 RewriteRule ^issues/4/wilson-miner/article$ index.php [L]
 RewriteCond %{REQUEST_FILENAME} !-f
