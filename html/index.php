@@ -29,7 +29,7 @@
   <meta name="description" content="<?= $fm['metadata'][$fm['type']]['synopsis'] ?>" />
   
   <!-- Twitter / OG -->
-  <meta property="fb:admins" content="100003881389456" />
+  <meta property="fb:admins" content="204017609792910" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@themanual" />
