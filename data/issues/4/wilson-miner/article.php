@@ -42,7 +42,7 @@ every thousand years. </p>
 
 <p>It’s almost cliché at this point to bemoan the fact that the work we create as digital designers doesn’t last very long. Whatever we make is bound to be obsolete, replaced, or just plain gone in a few years or less. We’re like the farmer after a harvest, watching the rain fall on an empty field. </p>
 
-<p>Steve Jobs gave an <a href="http://www.siliconvalleyhistorical.org/steve-jobs-film-interview/c17c6">interview</a> at NeXT in 1994 which resurfaced from the Silicon Valley Historical Association archives after his death. In response to one of the questions, comparing Silicon Valley to the European Renaissance in the 15th century and Jobs himself to Isaac Newton, he replies matter-of-factly, ”All the work I’ve done in my life will be obsolete by the time I’m 50.” </p>
+<p>Steve Jobs gave an <a href="http://www.siliconvalleyhistorical.org/steve-jobs-film-interview/c17c6">interview</a> at NeXT in 1994 which resurfaced from the Silicon Valley Historical Association archives after his death. In response to one of the questions, comparing Silicon Valley to the European Renaissance in the 15th century and Jobs himself to Isaac Newton, he replies matter-of-factly, “All the work I’ve done in my life will be obsolete by the time I’m 50.” </p>
 
 <p>With his unceremonious departure from Apple almost a decade behind him and his triumphant return not yet on the horizon, he takes the long view. “It’s sort of like a sediment of rocks. You’re building up a mountain, and you get to contribute your little layer of sedimentary rock to make the mountain that much higher. But no one on the surface, unless they have X-ray vision, will see your sediment.”</p>
 
@@ -88,7 +88,7 @@ every thousand years. </p>
 
 <p>Of course, the only part of his plans that ever got built, at Southdale or any of the other countless developments which rapidly copied and expanded on its model, was the shopping center. Instead of building Gruen’s system as the foundation, the developers extracted just the most lucrative piece and optimized it in isolation for one outcome: profit. Once chosen, that metric became the one thing that every other part of Gruen’s idea would eventually be traded against.</p>
 
-<p>By the end of his life, Gruen left America as disgusted with his own invention as he had been when with the suburbs when he first arrived. Appalled by the metastatic sprawl the malls had spawned and the “ugliness and discomfort of the land-wasting seas of parking”<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote" rel="footnote">[4]</a>, he eventually disowned and disparaged his own creation. In a speech in London in 1978, he declared, “I refuse to pay alimony for those bastard developments.&quot; He died in Vienna in 1980. He never returned to America.</p>
+<p>By the end of his life, Gruen left America as disgusted with his own invention as he had been when with the suburbs when he first arrived. Appalled by the metastatic sprawl the malls had spawned and the “ugliness and discomfort of the land-wasting seas of parking”<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote" rel="footnote">[4]</a>, he eventually disowned and disparaged his own creation. In a speech in London in 1978, he declared, “I refuse to pay alimony for those bastard developments.” He died in Vienna in 1980. He never returned to America.</p>
 
 <h2>The Failure of Success</h2>
 
