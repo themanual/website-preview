@@ -416,10 +416,20 @@ a.issue-4:hover, a.issue-4:focus, a.issue-4:active, .issue-4 a.issue-current:hov
 }
 @media screen and (max-width: 850px) {
   .issue-piece-header-illustration img {
-    max-height: 30em;
-    max-height: 75vh;
+    max-height: 28em;
   }
 }
+@media screen and (max-width: 650px) {
+  .issue-piece-header-illustration img {
+    max-height: 24em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .issue-piece-header-illustration img {
+    max-height: 20em;
+  }
+}
+
 .issue-piece-header-text:first-child {
   width: 100%;
   margin-top: 4em;

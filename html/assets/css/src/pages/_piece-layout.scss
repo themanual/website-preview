@@ -27,11 +27,10 @@ $type-column-em-width: 30;
   }
 }
 
-@include media-upto($bp-l) {
-  .issue-piece-header-illustration img {
-    max-height: 30em;
-    max-height: 75vh;
-  }
+.issue-piece-header-illustration img {
+  @include media-upto($bp-l)  { max-height: 28em; }
+  @include media-upto($bp-s)  { max-height: 24em; }
+  @include media-upto($bp-xs) { max-height: 20em; }
 }
 
 .issue-piece-header-text:first-child { // If it’s a lesson
